@@ -2,9 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata: {
-    title: `liamnorton`,
-    siteUrl: `https://www.yourdomain.tld`
-  },
-  plugins: ["gatsby-plugin-styled-components"]
+	siteMetadata: {
+		title: `liamnorton`,
+		siteUrl: `https://www.lwnorton.com`,
+	},
+	plugins: ["gatsby-plugin-styled-components"],
 };
