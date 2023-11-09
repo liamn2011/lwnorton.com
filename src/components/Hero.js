@@ -7,7 +7,7 @@ const Hero = () => {
 			<div className='w-full text-white'>
 				<h1 className='text-lg'>Hey, my name is</h1>
 				<h2 className='text-7xl'>Liam Norton</h2>
-				<p className='text-xl mt-2'>An adept professional using technology to engineer solutions.</p>
+				<p className='text-xl mt-2'>A skilled professional using technology to engineer solutions.</p>
 				<p className='mt-2'>
 					I'm passionate about creating impactful results, so let's explore the world where technology meets efficiency, and where my love for
 					innovation thrives.
