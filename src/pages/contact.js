@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import Comingsoon from "../components/ComingSoon";
+import EmailForm from "../components/emailForm";
 
 /*
     - Navbar (include downloadable cv)
@@ -13,7 +13,7 @@ import Comingsoon from "../components/ComingSoon";
 const AboutPage = () => {
 	return (
 		<Layout>
-			<Comingsoon />
+			<EmailForm />
 		</Layout>
 	);
 };
