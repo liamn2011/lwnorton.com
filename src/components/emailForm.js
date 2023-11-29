@@ -3,6 +3,7 @@ import Loader from "./loader";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 const axios = require("axios");
+const sanitizeHtml = require("sanitize-html");
 
 // Need to Refactor
 
@@ -59,7 +60,7 @@ const EmailForm = () => {
 				setLoading(true);
 
 				try {
-					await sendEmail(name, email, message);
+					await sendEmail(sanitizeHtml(name), sanitizeHtml(email), sanitizeHtml(message));
 					setLoading(false);
 					setSuccessDisplay(true);
 				} catch (error) {
@@ -151,7 +152,7 @@ const EmailForm = () => {
 			{successDisplay && (
 				<div className='flex-1 flex items-center justify-center flex-col '>
 					<div className='bg-gray-800 p-5 rounded-xl flex items-center flex-col'>
-						<p className='text-white'>Thank you for your email!</p>
+						<p className='text-white'>Thank you for your email</p>
 						<br />
 						<div className='bg-white rounded-full w-16 h-16 flex justify-center align-middle flex-col'>
 							<FontAwesomeIcon icon={faCheck} size='2xl' style={{ color: "#40e63d" }} />
