@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 const axios = require("axios");
 
+// Need to Refactor
+
 const EmailForm = () => {
 	const [errors, setErrors] = useState({
 		name: false,
