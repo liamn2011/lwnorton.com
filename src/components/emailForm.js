@@ -20,7 +20,7 @@ const EmailForm = () => {
 	const [canSubmit, setCanSubmit] = useState(false);
 
 	const validateField = (e) => {
-		const enteredValue = e.target.value;
+		const enteredValue = sanitizeHtml(e.target.value);
 		const fieldName = e.target.name;
 
 		setSubmitError(false);
@@ -48,9 +48,9 @@ const EmailForm = () => {
 
 	const submit = async () => {
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-		const name = document.getElementById("name").value;
-		const email = document.getElementById("email").value;
-		const message = document.getElementById("message").value;
+		const name = sanitizeHtml(document.getElementById("name").value);
+		const email = sanitizeHtml(document.getElementById("email").value);
+		const message = sanitizeHtml(document.getElementById("message").value);
 		setErrors({ ...errors, submit: false });
 		if (!emailRegex.test(email) && email !== "") {
 			setErrors({ ...errors, email: true });
@@ -60,7 +60,7 @@ const EmailForm = () => {
 				setLoading(true);
 
 				try {
-					await sendEmail(sanitizeHtml(name), sanitizeHtml(email), sanitizeHtml(message));
+					await sendEmail(name, email, message);
 					setLoading(false);
 					setSuccessDisplay(true);
 				} catch (error) {
