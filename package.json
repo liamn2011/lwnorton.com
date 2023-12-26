@@ -29,6 +29,6 @@
     "react-fontawesome": "^1.7.1",
     "sanitize-html": "^2.11.0",
     "styled-components": "^6.1.0",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.3.6"
   }
 }
