@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
 import EmailForm from "../components/emailForm";
+import { SEO } from "../components/seo";
 
 /*
     - Navbar (include downloadable cv)
@@ -20,4 +21,4 @@ const AboutPage = () => {
 
 export default AboutPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <SEO />;

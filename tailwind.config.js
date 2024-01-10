@@ -2,7 +2,11 @@
 module.exports = {
 	content: ["./src/**/*.{html,js}"],
 	theme: {
-		extend: {},
+		extend: {
+			transitionDuration: {
+				3000: "3000ms",
+			},
+		},
 	},
-	plugins: [],
+	plugins: [require("daisyui")],
 };
