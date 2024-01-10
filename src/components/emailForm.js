@@ -78,7 +78,7 @@ const EmailForm = () => {
 		<>
 			{formDisplay && (
 				<div className='flex-1 flex items-center justify-center flex-col '>
-					<div className='md:w-2/5 w-11/12'>
+					<div className='md:w-full max-w-xl w-11/12'>
 						<h1 className='text-white font-bold text-2xl mb-1'>CONTACT ME</h1>
 						<div className=' h-3 w-44 bg-gray-800 mb-1'></div>
 						<p className='text-white mb-4'>
@@ -87,7 +87,7 @@ const EmailForm = () => {
 						</p>
 					</div>
 
-					<div className='bg-gray-800 p-4 rounded-xl md:w-2/5  w-11/12'>
+					<div className='bg-gray-800 p-4 rounded-xl md:w-full max-w-xl w-11/12'>
 						<label htmlFor='name' className='text-white'>
 							Name*
 						</label>
@@ -133,7 +133,7 @@ const EmailForm = () => {
 						/>
 						{errors.message && <p className='text-center mt-2 text-red-600 text-base font-bold'>Please enter a message</p>}
 						{submitError && !errors.name && !errors.email && !errors.message && (
-							<p className='text-center mt-2 text-red-600 text-base font-bold'>Please check that all fields a completed correctly</p>
+							<p className='text-center mt-2 text-red-600 text-base font-bold'>Please check all fields are completed correctly</p>
 						)}
 						<button
 							onClick={submit}

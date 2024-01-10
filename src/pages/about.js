@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import Comingsoon from "../components/ComingSoon";
+import AboutContent from "../components/aboutContent";
+import { SEO } from "../components/seo";
 
 /*
     - Navbar (include downloadable cv)
@@ -13,11 +14,11 @@ import Comingsoon from "../components/ComingSoon";
 const AboutPage = () => {
 	return (
 		<Layout>
-			<Comingsoon />
+			<AboutContent />
 		</Layout>
 	);
 };
 
 export default AboutPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <SEO />;
