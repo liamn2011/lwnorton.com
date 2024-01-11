@@ -54,9 +54,9 @@ const TimelineBox = ({ position, company, duration, summary, isStart }) => {
 
 			{/* Mobile */}
 			{position === "test" ? (
-				<div className={`md:hidden block timeline-box bg-gray-800 w-full mb-5`}>{staticContent}</div>
+				<div className={`md:hidden block timeline-box bg-gray-800 border-gray-800 w-full mb-5`}>{staticContent}</div>
 			) : (
-				<div className={`md:hidden block timeline-box bg-gray-800 w-full mb-5`}>
+				<div className={`md:hidden block timeline-box bg-gray-800 w-full mb-5 border-gray-800`}>
 					<h3 className='font-bold text-sm text-white'>{duration}</h3>
 					<h2 className='text-lg text-white font-bold'>{position}</h2>
 					<div className={`justify-start flex  w-full`}>
@@ -96,7 +96,7 @@ const AboutContent = () => {
 				</section>
 				<section className=' w-full mb-14'>
 					<h1 className='text-white font-bold text-2xl mb-10 '>PROFESSIONAL SKILLS</h1>
-					<div className='w-full flex justify-center'>
+					<div className='w-full flex justify-center '>
 						<Skills />
 					</div>
 				</section>
