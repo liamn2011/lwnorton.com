@@ -7,7 +7,7 @@ const Hero = () => {
 			<div className=' text-white md:w-full max-w-xl w-11/12'>
 				<h1 className='text-2xl'>Hey, I'm</h1>
 
-				<h2 className='text-6xl text-white font-bold m-0 '>LIAM NORTON,</h2>
+				<h2 className='text-6xl text-white font-bold m-0 '>Liam Norton,</h2>
 
 				<p className='text-lg mt-2'>
 					a tech pro engineering impactful solutions. Let's delve into the realm where technology meets efficiency, where my passion for innovation
