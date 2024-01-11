@@ -139,7 +139,6 @@ const EmailForm = () => {
 							onClick={submit}
 							type='submit'
 							className='rounded-md bg-gray-800 border-white border-2 px-3 py-2 mt-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'>
-							{" "}
 							Submit
 						</button>
 					</div>
