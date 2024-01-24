@@ -75,7 +75,7 @@ const TimelineBox = ({ position, company, duration, summary, isStart }) => {
 
 const AboutContent = () => {
 	return (
-		<main className='flex-1 flex items-center flex-col w-full my-16 '>
+		<main className='flex-1 flex items-center flex-col w-full md:my-16 '>
 			<div className='flex-1 flex items-center flex-col md:w-full max-w-4xl w-11/12'>
 				<div className='container mx-auto flex justify-between items-center'>
 					<div>
