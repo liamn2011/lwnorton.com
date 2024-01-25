@@ -44,7 +44,7 @@ const Nav = () => {
 				</button>
 
 				{isMobileMenuOpen && (
-					<div className='md:hidden fixed top-0 left-0 right-0 bottom-0 bg-gray-800 text-white p-4'>
+					<div className='md:hidden fixed top-0 left-0 right-0 bottom-0 bg-gray-800 text-white p-4 z-10'>
 						<Link to='/' className='block mb-2'>
 							Home
 						</Link>

@@ -1,29 +1,44 @@
-- position: Principle Integration Consultant
-  company: https://www.aptitudesoftware.com/wp-content/themes/aptitude/images/logo.svg
-  duration: Jan 2022 to Present
-  contract: Remote
-  summary: Led complex integration projects, offering architectural consultancy and coding solutions. Produced comprehensive technical documentation, mentored teams, and streamlined client onboarding processes.
+- projectTitle: Portfolio Website - lwnorton.com
+  projectImage: lwnorton
+  year: Jan 2022 to Present
+  body: |
+    My portfolio website serves as a comprehensive showcase of my professional journey within the technology field. This project represents a presentation of my creative skills in highlighting my résumé. 
 
-- position: Implementation Consultant
-  company: https://www.aptitudesoftware.com/wp-content/themes/aptitude/images/logo.svg
-  duration: Sep 2020 to Dec 2022
-  contract: Hybrid
-  summary: Conducted in-depth business analysis, configured platforms, and provided expert guidance for REST API integrations. Resolved intricate system issues, executed successful data migrations, and developed impactful proof of concepts.
+    Featuring elements such as an animated background and a hand-drawn logo created using Inkscape, the website includes dedicated pages for 'About,' 'Projects,' and 'Contact Me.' Additionally, it incorporates meta tags for enhanced search engine optimisation. 
 
-- position: Business Analyst
-  company: https://www.ajbell.co.uk/sites/all/themes/ajbyi_patternlab/logo.png
-  duration: Sep 2018 to Aug 2020
-  contract: On-Site
-  summary: Defined project scopes, extracted detailed requirements, and collaborated closely with development teams. Employed advanced process modeling techniques, effectively managed backlogs, and delivered projects enhancing overall operational efficiency.
+    Powered by the React framework, specifically Gatsby JS, and styled with Tailwind, the project utilises YAML for content management and is hosted on Vercel.
+  icons:
+    - HTML
+    - CSS
+    - Tailwind
+    - Javascript
+    - React
+    - Gatsby
+    - Vercel
+    - Github
+    - Inkscape
+  projectButton: true
+  projectLink: https://www.lwnorton.com/
+  sourceCodeButton: true
+  sourceCodeLink: https://github.com/liamn2011/lwnorton.com
 
-- position: Business Improvement Analyst
-  company: https://www.ajbell.co.uk/sites/all/themes/ajbyi_patternlab/logo.png
-  duration: Jul 2017 to Aug 2018
-  contract: On-Site
-  summary: Played a key role in business improvement initiatives, focusing on optimizing processes to enhance operational efficiency and contribute to overall organizational growth.
+- projectTitle: Node JS (Express JS) - Email Subscriber API
+  projectImage: emailSubscriberAPI
+  year: Jan 2022 to Present
+  body: |
+    Developed for a custom Shopify site, this project acts as a proxy to efficiently store customer email addresses via the server-side Shopify admin API, specifically catering to newsletter marketing needs.
 
-- position: Test Analyst
-  company: https://www.ajbell.co.uk/sites/all/themes/ajbyi_patternlab/logo.png
-  duration: Mar 2016 to Jun 2017
-  contract: On-Site
-  summary: Executed comprehensive testing and contributed to robust quality assurance processes for web applications. Ensured the delivery of reliable and efficient software solutions through meticulous testing practices.
+    The API's primary role is to facilitate the storage of unverified email addresses in Shopify, initiate the generation of a verification email, and subsequently update the email status to 'verified' following user interaction. It also provides a user-friendly unsubscribe feature. 
+
+    Developed using Express JS, JSON Web Token (JWT), Nodemailer, and integrated with the Shopify Admin API, this project offers a robust solution for email management.
+  icons:
+    - NodeJS
+    - Javascript
+    - HTML
+    - Github
+    - Shopify
+    - JWT
+  projectButton: false
+  projectLink:
+  sourceCodeButton: true
+  sourceCodeLink: https://github.com/liamn2011/expressjs-email-subscription-api-with-verification-token
