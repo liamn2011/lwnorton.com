@@ -22,7 +22,7 @@ const Skills = () => {
 				</div>
 				<div className='skill-box'>
 					<div className='flex justify-between w-full text-white mb-2'>
-						<span>Business Process/ System Analysis</span>
+						<span>System Analysis</span>
 						<span>93%</span>
 					</div>
 					<div className='w-full border-green-300 border-2 relative rounded-2xl'>
@@ -41,35 +41,35 @@ const Skills = () => {
 				<div className='skill-box'>
 					<div className='flex justify-between w-full text-white mb-2'>
 						<span>Web Development</span>
-						<span>90%</span>
+						<span>92%</span>
 					</div>
 					<div className='w-full border-green-300 border-2 relative rounded-2xl'>
-						<div className={`${isLoaded ? "w-[90%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
+						<div className={`${isLoaded ? "w-[92%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
 					</div>
 				</div>
 				<div className='skill-box'>
 					<div className='flex justify-between w-full text-white mb-2'>
 						<span>Database</span>
-						<span>90%</span>
+						<span>92%</span>
 					</div>
 					<div className='w-full border-green-300 border-2 relative rounded-2xl'>
-						<div className={`${isLoaded ? "w-[90%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
+						<div className={`${isLoaded ? "w-[92%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
 					</div>
 				</div>
 
 				<div className='skill-box'>
 					<div className='flex justify-between w-full text-white mb-2'>
 						<span>Technical Leadership</span>
-						<span>86%</span>
+						<span>90%</span>
 					</div>
 					<div className='w-full border-green-300 border-2 relative rounded-2xl'>
-						<div className={`${isLoaded ? "w-[86%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
+						<div className={`${isLoaded ? "w-[90%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
 					</div>
 				</div>
 				<div className='skill-box'>
 					<div className='flex justify-between w-full text-white mb-2'>
 						<span>Architectural Oversight</span>
-						<span>83%</span>
+						<span>85%</span>
 					</div>
 					<div className='w-full border-green-300 border-2 relative rounded-2xl'>
 						<div className={`${isLoaded ? "w-[83%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
