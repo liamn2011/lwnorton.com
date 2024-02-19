@@ -6,7 +6,7 @@
 
     Featuring elements such as an animated background and a hand-drawn logo created using Inkscape, the website includes dedicated pages for 'About,' 'Projects,' and 'Contact Me.' Additionally, it incorporates meta tags for enhanced search engine optimisation. 
 
-    Powered by the React framework, specifically Gatsby JS, and styled with Tailwind, the project utilises YAML for content management and is hosted on Vercel.
+    Powered by React, specifically Gatsby JS, and styled with Tailwind, the project utilises YAML for content management and is hosted on Vercel.
   icons:
     - HTML
     - CSS
