@@ -22,6 +22,15 @@ const Skills = () => {
 				</div>
 				<div className='skill-box'>
 					<div className='flex justify-between w-full text-white mb-2'>
+						<span>Web Development</span>
+						<span>93%</span>
+					</div>
+					<div className='w-full border-green-300 border-2 relative rounded-2xl'>
+						<div className={`${isLoaded ? "w-[93%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
+					</div>
+				</div>
+				<div className='skill-box'>
+					<div className='flex justify-between w-full text-white mb-2'>
 						<span>System Analysis</span>
 						<span>93%</span>
 					</div>
@@ -38,15 +47,7 @@ const Skills = () => {
 						<div className={`${isLoaded ? "w-[93%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
 					</div>
 				</div>
-				<div className='skill-box'>
-					<div className='flex justify-between w-full text-white mb-2'>
-						<span>Web Development</span>
-						<span>92%</span>
-					</div>
-					<div className='w-full border-green-300 border-2 relative rounded-2xl'>
-						<div className={`${isLoaded ? "w-[92%] transition-all duration-[4000ms]" : "w-0"} h-2 rounded-2xl bg-green-300 border-green-300`}></div>
-					</div>
-				</div>
+
 				<div className='skill-box'>
 					<div className='flex justify-between w-full text-white mb-2'>
 						<span>Database</span>
