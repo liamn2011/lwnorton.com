@@ -6,7 +6,7 @@ const Project = ({ main }) => {
 		<>
 			{main.map((node, index) => {
 				const isStart = index % 2 === 0;
-				return <ProjectCard isStart={isStart} props={node} />;
+				return <ProjectCard key={index} isStart={isStart} props={node} />;
 			})}
 		</>
 	);
