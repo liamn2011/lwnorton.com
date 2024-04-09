@@ -19,6 +19,10 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: npx playwright test
+      - name: Install project dependencies
+        run: npm install
+      - name: Run gatsby project
+        run: npm run start
       - uses: actions/upload-artifact@v4
         if: always()
         with:

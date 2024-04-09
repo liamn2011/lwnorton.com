@@ -30,5 +30,4 @@ test("click About Link, click 'download cv' button", async ({ page }) => {
 
 	// Wait for the new tab to open
 	const pdfPage = await page1Promise;
-	console.log(pdfPage.url());
 });

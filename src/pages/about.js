@@ -21,11 +21,11 @@ const AboutPage = () => {
 							<h1 className='text-white font-bold text-2xl mb-1'>ABOUT ME</h1>
 							<div className='h-3 w-44 bg-gray-800 mb-1'></div>
 						</div>
-						<button className='rounded-md bg-gray-800 border-white border-2  px-3 py-2 mt-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800'>
-							<a href={resume} target='_blank' rel='noreferrer'>
+						<a href={resume} target='_blank' rel='noreferrer'>
+							<button className='rounded-md bg-gray-800 border-white border-2  px-3 py-2 mt-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800'>
 								Download CV
-							</a>
-						</button>
+							</button>
+						</a>
 					</div>
 					<section className=' mb-14'>
 						<div className='flex justify-center items-center space-x-3.5 mt-3 md:flex-row flex-col'>

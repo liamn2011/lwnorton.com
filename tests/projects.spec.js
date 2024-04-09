@@ -64,5 +64,4 @@ test("About page, card 2 testing", async ({ page }) => {
 		.click();
 	const page3 = await page3Promise;
 	expect(page3.url()).toEqual("https://github.com/liamn2011/expressjs-email-subscription-api-with-verification-token");
-	console.log(page3.url()); //test the url matches the expectation (this is printing correctly)
 });

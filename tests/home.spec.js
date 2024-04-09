@@ -8,6 +8,5 @@ test("has hero content", async ({ page }) => {
 	await expect(page.locator("#gatsby-focus-wrapper")).toContainText(
 		"a tech pro engineering impactful solutions. Let's delve into the realm where technology meets efficiency, where my passion for innovation thrives."
 	);
-	await page.goto("http://localhost:8000/");
 	await expect(page.getByRole("img", { name: "svg of Liam Norton" })).toBeVisible();
 });
