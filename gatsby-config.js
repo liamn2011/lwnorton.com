@@ -1,6 +1,7 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
 module.exports = {
 	siteMetadata: {
 		defaultTitle: `Liam Norton | Technical Specialist | Portfolio Website`,
