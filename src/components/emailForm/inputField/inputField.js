@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { InputContext } from "../emailForm";
-// Need to Refactor
+
+const sanitizeHtml = require("sanitize-html");
 
 const InputField = ({ label, isInputField }) => {
 	const { setInputValues } = useContext(InputContext); // Destructure to get setInputValues
@@ -11,7 +12,7 @@ const InputField = ({ label, isInputField }) => {
 		// Update parent component state
 		setInputValues((prevState) => ({
 			...prevState,
-			[name]: value, // Correctly use computed property names to set the property based on input name
+			[name]: sanitizeHtml(value), // Correctly use computed property names to set the property based on input name
 		}));
 
 		// Validate the field if validation function is passed
