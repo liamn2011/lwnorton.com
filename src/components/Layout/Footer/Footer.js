@@ -11,10 +11,10 @@ const Footer = () => {
 					<span>&copy;</span> Copyright 2024 Liam Norton.
 				</p>
 				<div>
-					<a href='https://github.com/liamn2011' target='_blank' rel='noreferrer' className=''>
+					<a href='https://github.com/liamn2011' aria-label='Github' target='_blank' rel='noreferrer' className=''>
 						<FontAwesomeIcon icon={faGithub} size='2xl' style={{ color: "#ffffff" }} />
 					</a>
-					<a href='https://www.linkedin.com/in/liam-norton-335139b3/' target='_blank' rel='noreferrer' className='ml-2'>
+					<a href='https://www.linkedin.com/in/liam-norton-335139b3/' aria-label='LinkedIn' target='_blank' rel='noreferrer' className='ml-2'>
 						<FontAwesomeIcon icon={faLinkedin} size='2xl' style={{ color: "#ffffff" }} />
 					</a>
 				</div>

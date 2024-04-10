@@ -1,3 +1,9 @@
 node_modules/
 .cache/
 public
+.env
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
