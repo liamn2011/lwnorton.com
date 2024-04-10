@@ -21,6 +21,9 @@ module.exports = {
 				path: `./src/data/`, // Path to your YAML files
 			},
 		},
+		{
+			resolve: "gatsby-plugin-no-sourcemaps",
+		},
 		"gatsby-transformer-yaml",
 	],
 };
