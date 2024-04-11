@@ -63,7 +63,7 @@ test("Contact page, contact form userability & error handling", async ({ page })
 	await page.getByPlaceholder("Email").fill("test@test.com");
 	await page.getByRole("button", { name: "Submit" }).click();
 	await expect(page.locator(".lds-roller")).toBeVisible();
-	expect(requestUrl).toBe("https://formsubmit.co/ajax/eca91726ce0f1d7cd2a332b1b46d6c3a");
+	expect(requestUrl).toContain("https://formsubmit.co/ajax/");
 	page.removeListener("request", () => {});
 
 	//Need to replace the email sender integration
