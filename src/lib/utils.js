@@ -4,7 +4,7 @@ export const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export const sendEmail = async (name, email, message) => {
 	try {
-		const response = await axios.post(`https://formsubmit.co/ajax/eca91726ce0f1d7cd2a332b1b46d6c3a`, {
+		const response = await axios.post(`https://formsubmit.co/ajax/${process.env.GATSBY_TOKEN}`, {
 			name: name,
 			email: email,
 			message: message,
