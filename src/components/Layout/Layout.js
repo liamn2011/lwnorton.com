@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Nav from "./Nav/Nav";
 import Background from "./Background/Background";
 import Footer from "./Footer/Footer";
+import { Helmet } from "react-helmet";
 
 const navLinks = [
 	{ title: "Home", path: "/" },
@@ -18,6 +19,9 @@ const Layout = ({ children }) => {
 	}, []);
 	return (
 		<div className=' flex flex-col h-screen'>
+			<Helmet>
+				<html lang='en' />
+			</Helmet>
 			<Nav navLinks={navLinks} />
 			<Background />
 			<div className={`flex-1 flex items-center flex-col w-full  ${isLoaded ? "opacity-100 transition-opacity duration-[2000ms]" : "opacity-0"}`}>
