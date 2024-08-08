@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
 
 export const Seo = ({ title, description, pathname, children }) => {
@@ -23,6 +23,7 @@ export const Seo = ({ title, description, pathname, children }) => {
 			<meta name='robots' content={seo.robots} />
 			<meta name='copyright' content={seo.copyRight} />
 			<meta name='author' content={seo.author} />
+
 			{children}
 		</>
 	);

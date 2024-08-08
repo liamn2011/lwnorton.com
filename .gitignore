@@ -1,6 +1,7 @@
 node_modules/
 .cache/
 public
+archive/
 .env
 .env.development
 .env.production
