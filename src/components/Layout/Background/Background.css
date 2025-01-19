@@ -100,3 +100,11 @@
 	animation-delay: 2s;
 	animation-duration: 35s;
 }
+
+.icons svg:nth-child(10) {
+	left: 95%;
+	width: 60px;
+	height: 60px;
+	animation-delay: 2s;
+	animation-duration: 35s;
+}

@@ -8,7 +8,7 @@ require("dotenv").config({
 
 module.exports = {
 	siteMetadata: {
-		defaultTitle: `Liam Norton | Technical Specialist | Portfolio Website`,
+		defaultTitle: `Liam Norton | Software Engineer | Portfolio Website`,
 		siteUrl: `https://www.lwnorton.com`,
 		author: "Liam Norton",
 		defaultDescription: `I am a passionate Technical Specialist with expertise in solution development. Explore my portfolio to see a showcase of my projects and accomplishments. I specialise in delivering high-quality solutions to complex technical challenges. Let's connect and discuss how I can contribute to your next project.`,

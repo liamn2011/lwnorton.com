@@ -1,8 +1,8 @@
-- name: Solution Design
-  percentage: 95%
-- name: Web Development
+- name: Backend Development
   percentage: 93%
-- name: System Analysis
+- name: Fullstack Development
+  percentage: 93%
+- name: Solution Design
   percentage: 93%
 - name: Functional / Non-Functional Requirements
   percentage: 93%

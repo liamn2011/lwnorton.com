@@ -27,7 +27,7 @@ const Skills = ({ data }) => {
 	return (
 		<div className='card bg-gray-800 text-primary-content w-4/5'>
 			<div className='card-body'>
-				<h2 className='card-title'>SKILLS</h2>
+				<h2 className='card-title dark:text-white'>SKILLS</h2>
 				{data.map((skill, index) => (
 					<div key={index} className='skill-box'>
 						<div className='flex justify-between w-full text-white mb-2'>
