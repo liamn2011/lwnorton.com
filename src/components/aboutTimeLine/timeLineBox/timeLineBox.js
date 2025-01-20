@@ -45,7 +45,7 @@ const TimeLineBox = ({ node, isStart }) => {
 							src={`${company !== "mpp" && company !== "ajbell" ? company : ajbell}`}
 						/>
 					</div>
-					<ul className='text-white text-base	list-disc ml-[10px] list-outside'>
+					<ul className='text-white text-base	list-disc ml-[30px] list-outside'>
 						{summary.map((x) => (
 							<li>{x}</li>
 						))}

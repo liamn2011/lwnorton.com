@@ -18,6 +18,17 @@ import postman from "../images/icons/postman.svg";
 import docker from "../images/icons/docker.svg";
 import salesforce from "../images/icons/salesforce.svg";
 import datadog from "../images/icons/datadog.svg";
+import python from "../images/icons/python.svg";
+import csharp from "../images/icons/c#.svg";
+import visio from "../images/icons/visio.svg";
+import figaro from "../images/icons/figaro.png";
+import msoffice from "../images/icons/msoffice.svg";
+import sql from "../images/icons/sql.svg";
+import atlassian from "../images/icons/atlassian.svg";
+import calestone from "../images/icons/calestone.png";
+import clearstream from "../images/icons/clearstream.png";
+import origo from "../images/icons/origo.png";
+import cofunds from "../images/icons/cofunds.png";
 import lwnorton from "../images/projects/lwnorton.png";
 import emailSubscriberAPI from "../images/projects/emailSubscriberAPI.png";
 
@@ -42,6 +53,17 @@ export const iconImages = {
 	docker,
 	salesforce,
 	datadog,
+	python,
+	csharp,
+	sql,
+	visio,
+	figaro,
+	atlassian,
+	msoffice,
+	calestone,
+	clearstream,
+	origo,
+	cofunds,
 };
 
 export const projectImages = {
