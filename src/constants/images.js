@@ -32,6 +32,7 @@ import cofunds from "../images/icons/cofunds.png";
 import lwnorton from "../images/projects/lwnorton.png";
 import emailSubscriberAPI from "../images/projects/emailSubscriberAPI.png";
 
+// https://www.svgrepo.com/
 export const iconImages = {
 	javascript,
 	css,

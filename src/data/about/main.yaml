@@ -3,10 +3,9 @@
   duration: Sep 2024 to Present
   contract: Remote
   summary:
-    - Design and implement AWS cloud-based integration solutions to address and streamline internal business processes.
-    - Collaborate with cross-functional stakeholders to gather requirements, design scalable solutions, and ensure seamless integration.
-    - Develop, test, and deploy custom-built solutions that align with business goals and enhance operational efficiency.
-    - Leverage modern cloud technologies and best practices to build secure, reliable, and scalable systems.
+    - Design and implement AWS cloud-based integration solutions to streamline internal business processes.
+    - Build serverless architectures using AWS services including Lambda, SQS, EventBridge, S3, DynamoDB, API Gateway and many more.
+    - Using NodeJs, Typescript, and Terraform to develop and deploy custom-built solutions that align with business goals and enhance operational efficiency.
   icon:
     - AWS
     - Typescript
@@ -98,5 +97,6 @@
     - Figaro
     - MSOffice
     - Atlassian
+    - Calestone
 
 - position: end
