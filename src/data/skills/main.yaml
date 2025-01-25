@@ -1,14 +1,12 @@
 - name: Backend Development
-  percentage: 93%
+  percentage: 95%
 - name: Fullstack Development
   percentage: 93%
 - name: Solution Design
+  percentage: 93%
+- name: Technical Leadership
   percentage: 93%
 - name: Functional / Non-Functional Requirements
   percentage: 93%
 - name: Database
   percentage: 92%
-- name: Technical Leadership
-  percentage: 90%
-- name: Architectural Oversight
-  percentage: 85%
