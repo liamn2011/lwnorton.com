@@ -2,7 +2,7 @@ import * as React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faSquareJs, faNode, faCss3Alt, faHtml5, faReact, faPython } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faSquareJs, faNode, faCss3Alt, faHtml5, faReact, faPython, faAws } from "@fortawesome/free-brands-svg-icons";
 
 import "./Background.css";
 
@@ -19,6 +19,7 @@ const Background = () => {
 				<FontAwesomeIcon icon={faDatabase} />
 				<FontAwesomeIcon icon={faPython} />
 				<FontAwesomeIcon icon={faGithub} />
+				<FontAwesomeIcon icon={faAws} />
 			</div>
 		</>
 	);

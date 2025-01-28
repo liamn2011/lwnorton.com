@@ -13,8 +13,8 @@ const IndexPage = () => {
 					<h2 className='text-6xl text-white font-bold m-0 '>Liam Norton,</h2>
 
 					<p className='text-lg mt-2'>
-						a tech pro engineering impactful solutions. Let's delve into the realm where technology meets efficiency, where my passion for innovation
-						thrives.
+						a Software Engineer building impactful solutions. Let's delve into the realm where technology meets efficiency, where my passion for
+						innovation thrives.
 					</p>
 				</div>
 				<div className='flex justify-center md:w-full max-w-xl w-11/12'>

@@ -1,45 +1,10 @@
 import React from "react";
-
-// Icons
-import css from "../../../images/icons/css.svg";
-import gatsby from "../../../images/icons/gatsby.svg";
-import github from "../../../images/icons/githubicon.svg";
-import html from "../../../images/icons/html.svg";
-import javascript from "../../../images/icons/javascript.svg";
-import react from "../../../images/icons/react.svg";
-import tailwind from "../../../images/icons/tailwind.svg";
-import vercel from "../../../images/icons/vercel.svg";
-import nodejs from "../../../images/icons/nodejs.svg";
-import jwt from "../../../images/icons/jwt.svg";
-import inkscape from "../../../images/icons/inkscape.svg";
-import shopify from "../../../images/icons/shopify.svg";
-
-import lwnorton from "../../../images/projects/lwnorton.png";
-import emailSubscriberAPI from "../../../images/projects/emailSubscriberAPI.png";
+import { iconImages, projectImages } from "../../../constants/images";
 import IconWithTooltip from "../iconWithToolTip/iconWithToolTip";
 
 const ProjectCard = ({ isStart, props }) => {
 	const { projectTitle, projectImage, body, icons, projectButton, projectLink, sourceCodeButton, sourceCodeLink } = props;
 
-	const iconImages = {
-		javascript,
-		css,
-		html,
-		react,
-		tailwind,
-		vercel,
-		gatsby,
-		github,
-		nodejs,
-		inkscape,
-		shopify,
-		jwt,
-	};
-
-	const projectImages = {
-		lwnorton,
-		emailSubscriberAPI,
-	};
 	return (
 		<>
 			<div className='md:flex md:w-full card md:card-side bg-gray-800 shadow-xl mb-16 md:h-[590px] pb-10 md:pb-0'>
