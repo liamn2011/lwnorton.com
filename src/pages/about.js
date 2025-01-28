@@ -24,7 +24,7 @@ const AboutPage = () => {
 						{/* href={resume} */}
 						<a target='_blank' rel='noreferrer'>
 							{/* hover:bg-gray-700 */}
-							<button className='cursor-not-allowed opacity-50 rounded-md bg-gray-800 border-white border-2 px-3 py-2 mt-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800'>
+							<button className='hidden cursor-not-allowed opacity-50 rounded-md bg-gray-800 border-white border-2 px-3 py-2 mt-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800'>
 								Download CV
 							</button>
 						</a>
