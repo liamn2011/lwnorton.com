@@ -1,48 +1,48 @@
 {
-	"name": "liamnorton",
-	"version": "1.0.0",
-	"private": true,
-	"description": "liamnorton",
-	"author": "liamn2011",
-	"keywords": [
-		"gatsby"
-	],
-	"scripts": {
-		"develop": "gatsby develop",
-		"start": "gatsby clean && gatsby develop",
-		"build": "gatsby build",
-		"serve": "gatsby serve",
-		"clean": "gatsby clean",
-		"test": "playwright test"
-	},
-	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^6.4.2",
-		"@fortawesome/free-brands-svg-icons": "^6.4.2",
-		"@fortawesome/free-regular-svg-icons": "^6.4.2",
-		"@fortawesome/free-solid-svg-icons": "^6.4.2",
-		"@fortawesome/react-fontawesome": "^0.2.0",
-		"axios": "^1.6.2",
-		"babel-plugin-styled-components": "^2.1.4",
-		"clsx": "^2.1.0",
-		"dotenv": "^16.4.5",
-		"gatsby": "^5.12.4",
-		"gatsby-plugin-no-sourcemaps": "^5.13.0",
-		"gatsby-plugin-styled-components": "^6.12.0",
-		"gatsby-source-filesystem": "^5.13.0",
-		"gatsby-transformer-yaml": "^5.13.0",
-		"playwright": "^1.43.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-fontawesome": "^1.7.1",
-		"react-helmet": "^6.1.0",
-		"sanitize-html": "^2.11.0",
-		"styled-components": "^6.1.0",
-		"tailwindcss": "^3.3.5",
-		"yaml": "^2.6.1"
-	},
-	"devDependencies": {
-		"@playwright/test": "^1.43.0",
-		"@types/node": "^20.12.5",
-		"daisyui": "^4.4.24"
-	}
+  "name": "liamnorton",
+  "version": "1.0.0",
+  "private": true,
+  "description": "liamnorton",
+  "author": "liamn2011",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "start": "gatsby clean && gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.6.2",
+    "babel-plugin-styled-components": "^2.1.4",
+    "clsx": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "gatsby": "^5.14.5",
+    "gatsby-plugin-no-sourcemaps": "^5.14.0",
+    "gatsby-plugin-styled-components": "^6.14.0",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-yaml": "^5.14.0",
+    "playwright": "^1.43.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0",
+    "sanitize-html": "^2.11.0",
+    "styled-components": "^6.1.0",
+    "tailwindcss": "^3.3.5",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.5",
+    "daisyui": "^4.4.24"
+  }
 }
