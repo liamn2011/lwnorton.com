@@ -4,6 +4,7 @@ import Background from "./Background/Background";
 import Footer from "./Footer/Footer";
 import { Helmet } from "react-helmet";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 const navLinks = [
   { title: "Home", path: "/" },
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <SpeedInsights />
+      <Analytics />
       <div className=" flex flex-col h-screen">
         <Helmet>
           <html lang="en" />
